@@ -1,4 +1,4 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.UI;
 
 public class UISlot : MonoBehaviour
@@ -17,12 +17,12 @@ public class UISlot : MonoBehaviour
 
     public void RefreshUI()
     {
-        // ¾ÆÀÌÄÜÀÌ ÀÖ´Ù¸é ¼³Á¤
+        // ì•„ì´ì½˜ì´ ìˆë‹¤ë©´ ì„¤ì •
         if (icon != null && itemData.Icon != null)
             icon.sprite = itemData.Icon;
     }
 
-    public void OnClick()
+    public void OnClick() // ì¥ë¹„ ì¥ì°© í•´ì œ
     {
         if (eButton.activeSelf)
         {
